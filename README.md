@@ -1,6 +1,6 @@
 # Libvirt Xml Operations Tool
 
-<img src="https://raw.githubusercontent.com/kevsersrca/libvirt-xml/master/gopher.png" width="200" height="400" />
+<img src="https://raw.githubusercontent.com/kevsersrca/libvirt-xml/master/gopher.png" width="400" height="400" />
 
 
 
