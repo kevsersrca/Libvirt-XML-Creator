@@ -122,15 +122,38 @@ Objects in the libvirt API are configured using XML documents to allow for ease 
 * [ ] IOMMU devices
 * [ ] Security label</details>
 
-* [ ] Networks
-* [ ] Network filtering
-* [ ] Storage
-* [ ] Storage encryption
-* [ ] Capabilities
-* [ ] Domain capabilities
-* [ ] Node devices
-* [ ] Secrets
-* [ ] Snapshots
+<details>
+ <summary>Networks</summary>
 
+</details>
+<details>
+ <summary>Network filtering</summary>
 
+</details>
+<details>
+ <summary>Storage</summary>
 
+</details>
+<details>
+ <summary>Storage encryption</summary>
+
+</details>
+<details>
+ <summary>Capabilities</summary>
+
+</details>
+<details>
+ <summary>Domain capabilities</summary>
+
+</details>
+<details>
+ <summary>Node devices</summary>
+
+</details>
+<details>
+ <summary>Secrets</summary>
+
+</details>
+<details>
+ <summary>Snapshots</summary>
+</details>
