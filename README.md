@@ -23,8 +23,8 @@ Objects in the libvirt API are configured using XML documents to allow for ease 
 
 
 # Configuration list to change 
-* [ ] Domains
 <details>
+ <summary>Domains</summary>
 
 * [ ] Element and attribute overview
 * [ ] General metadata
@@ -121,6 +121,7 @@ Objects in the libvirt API are configured using XML documents to allow for ease 
 * [ ] Memory devices
 * [ ] IOMMU devices
 * [ ] Security label</details>
+
 * [ ] Networks
 * [ ] Network filtering
 * [ ] Storage
