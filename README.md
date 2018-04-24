@@ -120,8 +120,7 @@ Objects in the libvirt API are configured using XML documents to allow for ease 
 * [ ] Shared memory device
 * [ ] Memory devices
 * [ ] IOMMU devices
-* [ ] Security label
-</details>
+* [ ] Security label</details>
 * [ ] Networks
 * [ ] Network filtering
 * [ ] Storage
