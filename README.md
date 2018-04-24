@@ -2,13 +2,7 @@
 
 This package manipulating libvirt XML documents. Define libvirt xml files with structs and used independently with libvirt.
 
-<img src="https://raw.githubusercontent.com/kevsersrca/libvirt-xml/master/gopher.png" width="400" height="400" />
-
-
 Objects in the libvirt API are configured using XML documents to allow for ease of extension in future releases. Each XML document has an associated Relax-NG schema that can be used to validate documents prior to usage. For all formats : https://libvirt.org/format.html
-
-# Data Flow Diagram
-![Gopher](https://raw.githubusercontent.com/kevsersrca/libvirt-xml/master/dataflowdiagram.png)
 
 
 # TODO
@@ -19,7 +13,7 @@ Objects in the libvirt API are configured using XML documents to allow for ease 
 * [ ]  Append Xml Structures
 * [ ]  Delete Xml Structures
 * [ ]  Cli 
-* []   Validating
+* [ ]   Validating
 
 
 # Configuration list to change 
