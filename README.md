@@ -20,69 +20,69 @@ Objects in the libvirt API are configured using XML documents to allow for ease 
 <details>
  <summary>Domains</summary>
 
-* [ ] Element and attribute overview
-* [ ] General metadata
+* [x] Element and attribute overview 
+* [x] General metadata
 * [ ] Operating system booting
 * [ ] BIOS bootloader
 * [ ] Host bootloader
 * [ ] Direct kernel boot
 * [ ] Container boot
 * [ ] SMBIOS System Information
-* [ ] CPU Allocation
+* [x] CPU Allocation
 * [ ] IOThreads Allocation
 * [ ] CPU Tuning
-* [ ] Memory Allocation
+* [x] Memory Allocation
 * [ ] Memory Backing
 * [ ] Memory Tuning
 * [ ] NUMA Node Tuning
 * [ ] Block I/O Tuning
 * [ ] Resource partitioning
-* [ ] CPU model and topology
-* [ ] Events configuration
-* [ ] Power Management
-* [ ] Hypervisor features
-* [ ] Time keeping
+* [x] CPU model and topology
+* [x] Events configuration
+* [x] Power Management
+* [x] Hypervisor features
+* [x] Time keeping
 * [ ] Performance monitoring events
-* [ ] Devices
+* [x] Devices
 * [ ] Hard drives, floppy disks, CDROMs
 * [ ] Filesystems
 * [ ] Device Addresses
 * [ ] Virtio-related options
-* [ ] Controllers
+* [x] Controllers
 * [ ] Device leases
 * [ ] Host device assignment
 * [ ] USB / PCI / SCSI devices
 * [ ] Block / character devices
 * [ ] Redirected devices
 * [ ] Smartcard devices
-* [ ] Network interfaces
-* [ ] Virtual network
-* [ ] Bridge to LAN
-* [ ] Userspace SLIRP stack
-* [ ] Generic ethernet connection
-* [ ] Direct attachment to physical interface
-* [ ] PCI Passthrough
-* [ ] Multicast tunnel
-* [ ] TCP tunnel
-* [ ] UDP unicast tunnel
-* [ ] Setting the NIC model
-* [ ] Setting NIC driver-specific options
-* [ ] Setting network backend-specific options
-* [ ] Overriding the target element
-* [ ] Specifying boot order
-* [ ] Interface ROM BIOS configuration
-* [ ] Setting up a network backend in a driver domain
-* [ ] Quality of service
-* [ ] Setting VLAN tag (on supported network types only)
-* [ ] Modifying virtual link state
-* [ ] MTU configuration
-* [ ] Coalesce settings
-* [ ] IP configuration
-* [ ] vhost-user interface
-* [ ] Traffic filtering with NWFilter
+* [x] Network interfaces
+* [x] Virtual network
+* [x] Bridge to LAN
+* [x] Userspace SLIRP stack
+* [x] Generic ethernet connection
+* [x] Direct attachment to physical interface
+* [x] PCI Passthrough
+* [x] Multicast tunnel
+* [x] TCP tunnel
+* [x] UDP unicast tunnel
+* [x] Setting the NIC model
+* [x] Setting NIC driver-specific options
+* [x] Setting network backend-specific options
+* [x] Overriding the target element
+* [x] Specifying boot order
+* [x] Interface ROM BIOS configuration
+* [x] Setting up a network backend in a driver domain
+* [x] Quality of service
+* [x] Setting VLAN tag (on supported network types only)
+* [x] Modifying virtual link state
+* [x] MTU configuration
+* [x] Coalesce settings
+* [x] IP configuration
+* [x] vhost-user interface
+* [x] Traffic filtering with NWFilter
 * [ ] Input devices
 * [ ] Hub devices
-* [ ] Graphical framebuffers
+* [x] Graphical framebuffers
 * [ ] Video devices
 * [ ] Consoles, serial, parallel & channel devices
 * [ ] Guest interface
@@ -106,7 +106,7 @@ Objects in the libvirt API are configured using XML documents to allow for ease 
 * [ ] Nmdm device
 * [ ] Sound devices
 * [ ] Watchdog device
-* [ ] Memory balloon device
+* [x] Memory balloon device
 * [ ] Random number generator device
 * [ ] TPM device
 * [ ] NVRAM device
