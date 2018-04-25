@@ -10,19 +10,22 @@ type DomainInterfaceModel struct {
 	Type string `xml:"type,attr"`
 }
 
+/*
+TODO:
+VHostUser
+*/
 type DomainInterfaceSource struct {
-	User      *DomainInterfaceSourceUser     `xml:"-"`
-	Ethernet  *DomainInterfaceSourceEthernet `xml:"-"`
-	VHostUser *DomainChardevSource           `xml:"-"`
-	Server    *DomainInterfaceSourceServer   `xml:"-"`
-	Client    *DomainInterfaceSourceClient   `xml:"-"`
-	MCast     *DomainInterfaceSourceMCast    `xml:"-"`
-	Network   *DomainInterfaceSourceNetwork  `xml:"-"`
-	Bridge    *DomainInterfaceSourceBridge   `xml:"-"`
-	Internal  *DomainInterfaceSourceInternal `xml:"-"`
-	Direct    *DomainInterfaceSourceDirect   `xml:"-"`
-	Hostdev   *DomainInterfaceSourceHostdev  `xml:"-"`
-	UDP       *DomainInterfaceSourceUDP      `xml:"-"`
+	User     DomainInterfaceSourceUser     `xml:"-"`
+	Ethernet DomainInterfaceSourceEthernet `xml:"-"`
+	Server   DomainInterfaceSourceServer   `xml:"-"`
+	Client   DomainInterfaceSourceClient   `xml:"-"`
+	MCast    DomainInterfaceSourceMCast    `xml:"-"`
+	Network  DomainInterfaceSourceNetwork  `xml:"-"`
+	Bridge   DomainInterfaceSourceBridge   `xml:"-"`
+	Internal DomainInterfaceSourceInternal `xml:"-"`
+	Direct   DomainInterfaceSourceDirect   `xml:"-"`
+	Hostdev  DomainInterfaceSourceHostdev  `xml:"-"`
+	UDP      DomainInterfaceSourceUDP      `xml:"-"`
 }
 
 type DomainInterfaceSourceUser struct {
@@ -69,9 +72,12 @@ type DomainInterfaceSourceDirect struct {
 	Mode string `xml:"mode,attr,omitempty"`
 }
 
+/*
+TODO:
+PCI
+USB
+*/
 type DomainInterfaceSourceHostdev struct {
-	PCI *DomainHostdevSubsysPCISource `xml:"-"`
-	USB *DomainHostdevSubsysUSBSource `xml:"-"`
 }
 
 type DomainInterfaceSourceUDP struct {
