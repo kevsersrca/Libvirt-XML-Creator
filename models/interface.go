@@ -2,6 +2,10 @@ package models
 
 import "encoding/xml"
 
+type DomainAlias struct {
+	Name string `xml:"name,attr"`
+}
+
 type DomainInterfaceMAC struct {
 	Address string `xml:"address,attr"`
 }

@@ -32,7 +32,7 @@ func New(domainName string) *LibvirtXml{
 }
 
 
-func UnmarshallDomain(filename string) *m.Domain {
+func (l *LibvirtXml) UnmarshallDomain(filename string) *m.Domain {
 
 }
 
